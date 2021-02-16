@@ -1,0 +1,95 @@
+<!-- Aron Miguel Manalang -->
+<!DOCTYPE html>
+<html>
+<head>
+
+<script
+src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+ </script>
+
+<title>Page Title</title>
+
+<!-- Reference to the CSS file -->
+<link rel="stylesheet" href="stylesheets/Manalang23_style.css">
+
+</head>
+
+<!-- Many of the blocks of code here were taken from W3Schools.com -->
+<body>
+  <h1>Cheesecake Order Form</h1>
+
+  <!-- div id defines this block of code for my CSS file. -->
+
+  <div id="picture">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/The_delicious_birthday_cheesecake_last_night_at_Jackie%27s.jpg" alt="Cheesecake Picture" width="300" height="300">
+  </div>
+
+<br>
+
+<!-- Block of code for the dropdown from W3Schools -->
+<label for="quantity">Quantity Topping:</label>
+<select name="quantity" id="quantity">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+
+<br>
+
+<!-- Block of code for the selection menu, from W3Schools -->
+<input type="radio" id="plain" name="topping" value="plain">
+<label for="plain">Plain</label><br>
+<input type="radio" id="cherry" name="topping" value="cherry">
+<label for="cherry">Cherry</label><br>
+<input type="radio" id="chocolate" name="topping" value="chocolate">
+<label for="other">Chocolate</label>
+
+<br>
+
+<!-- For the notes section, taken from W3Schools -->
+<label for="notes">Notes :</label>
+<br>
+  <textarea id="notes" name="notes" rows="4" cols="50">
+    Enter any special instructions here.
+  </textarea>
+
+<!-- Block of code for creating a button, taken from StackOverflow. https://stackoverflow.com/questions/25167909/check-if-textarea-textbox-contains-a-certain-string-->
+
+<br>
+<input id="button" type="submit" name="button" onclick="myFunction();" value="Order"/>
+
+<script src="javascripts/veganCheck.js"></script>
+
+
+<!-- Block of code used from w3schools. https://www.w3schools.com/css/css_dropdowns.asp -->
+<h2>
+
+Orders for
+<div class="dropdown">
+  <button class="dropbtn">Jan</button>
+  <div class="dropdown-content">
+    <a href="#">Feb</a>
+    <a href="#">Mar</a>
+    <a href="#">Apr</a>
+    <a href="#">May</a>
+    <a href="#">Jun</a>
+    <a href="#">Jul</a>
+    <a href="#">Aug</a>
+    <a href="#">Sep</a>
+    <a href="#">Oct</a>
+    <a href="#">Nov</a>
+    <a href="#">Dec</a>
+  </div>
+</div>
+
+</h2>
+<ul>
+  <li>420 Plain</li>
+  <li>240 Cherry</li>
+  <li>024 Chocolate</li>
+</ul>
+
+</body>
+</html>

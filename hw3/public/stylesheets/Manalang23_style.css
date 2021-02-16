@@ -1,0 +1,57 @@
+<!-- Aron Miguel Manalang -->
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  text-align: center;
+  font-family: verdana;
+}
+
+#picture {
+background-color: gray;
+}
+
+h2 {
+  color: tomato;
+  font-family: helvetica;
+}
+
+/* Code from https://www.w3schools.com/css/css_dropdowns.asp */
+.dropbtn {
+    background-color: #4CAF50;
+    color: tomato;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: tomato;
+    padding: 5px;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
