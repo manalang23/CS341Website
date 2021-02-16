@@ -1,3 +1,4 @@
+<!-- Aron Miguel Manalang -->
 function myFunction(){
     var textarea = document.getElementById('notes');
 	var textValue=textarea.value;
