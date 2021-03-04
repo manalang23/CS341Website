@@ -3,10 +3,6 @@
 <html>
 <head>
 
-<script
-src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
- </script>
-
 <title>Page Title</title>
 
 <!-- Reference to the CSS file -->
@@ -58,10 +54,8 @@ src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
 <!-- Block of code for creating a button, taken from StackOverflow. https://stackoverflow.com/questions/25167909/check-if-textarea-textbox-contains-a-certain-string-->
 
 <br>
+
 <input id="button" type="submit" name="button" onclick="myFunction();" value="Order"/>
-
-<script src="javascripts/veganCheck.js"></script>
-
 
 <!-- Block of code used from w3schools. https://www.w3schools.com/css/css_dropdowns.asp -->
 <h2>
@@ -69,27 +63,30 @@ src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
 Orders for
 <div class="dropdown">
   <button class="dropbtn">Jan</button>
-  <div class="dropdown-content">
-    <a href="#">Feb</a>
-    <a href="#">Mar</a>
-    <a href="#">Apr</a>
-    <a href="#">May</a>
-    <a href="#">Jun</a>
-    <a href="#">Jul</a>
-    <a href="#">Aug</a>
-    <a href="#">Sep</a>
-    <a href="#">Oct</a>
-    <a href="#">Nov</a>
-    <a href="#">Dec</a>
+    <div class="dropdown-content">
+      <a href="#" id="Jan"> Jan</a>
+      <a href="#"> Feb</a>
+      <a href="#"> Mar</a>
+      <a href="#"> Apr</a>
+      <a href="#"> May</a>
+      <a href="#"> Jun</a>
+      <a href="#"> Jul</a>
+      <a href="#"> Aug</a>
+      <a href="#"> Sep</a>
+      <a href="#"> Oct</a>
+      <a href="#"> Nov</a>
+      <a href="#"> Dec</a>
   </div>
 </div>
 
 </h2>
 <ul>
-  <li>420 Plain</li>
-  <li>240 Cherry</li>
-  <li>024 Chocolate</li>
+  <li id="amountOne">420 Plain</li>
+  <li id="amountTwo">240 Cherry</li>
+  <li id="amountThree">024 Chocolate</li>
 </ul>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="javascripts/veganCheck.js"></script>
 </body>
 </html>

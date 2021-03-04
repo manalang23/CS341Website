@@ -1,4 +1,4 @@
-<!-- Aron Miguel Manalang -->
+//Aron Miguel Manalang
 var fs = require('fs');
 test('test selectEvent', () => {
 	//Read the index.html file into a string
@@ -7,6 +7,6 @@ test('test selectEvent', () => {
 
 	//put the HTML into a testing DOM and do a sanity check
 	document.body.innerHTML = html;
-	const $ = require('juery');
+	const $ = require('jquery');
 	expect($('h1').html()).toBe("Cheesecake Order Form");
 });

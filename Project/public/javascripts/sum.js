@@ -1,4 +1,4 @@
-<!-- Aron Miguel Manalang -->
+//Aron Miguel Manalang
 function sum(a, b) {
  return a + b;
 }
